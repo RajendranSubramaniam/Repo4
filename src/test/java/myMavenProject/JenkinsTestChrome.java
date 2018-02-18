@@ -19,7 +19,7 @@ public class JenkinsTestChrome {
 	driver.manage().window().setSize(n);
 	String pageTitle = driver.getTitle();
 	
-	Assert.assertEquals(pageTitle, "Gmail");
+	Assert.assertEquals(pageTitle, "Gamail");
 	
 	
 	}
